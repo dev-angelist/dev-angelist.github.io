@@ -83,11 +83,6 @@ var commands = [
         action: cmdHistory
     },
     {
-        command: "about",
-        description: "About this project",
-        action: cmdAbout
-    },
-    {
         command: "social",
         description: "Show social media profiles",
         action: cmdSocial
@@ -166,12 +161,6 @@ function cmdHistory(args) {
     for (let i=startIndex; i<commandHistory.length; i++) {
         addTextLine(`${i-startIndex+1}. ${commandHistory[i]}`, infoColor);
     }
-}
-
-function cmdAbout(args) {
-    addTextLines(`\nThis project is my attempt at a different kind of developer portfolio.\n
-    The repository details are obtained from the Github public API and is written in vanilla Javascript.\n
-    Project source can be found at <a class="highlight" href="https://github.com/cyberpirate92/cyberpirate92.github.io">https://github.com/cyberpirate92/cyberpirate92.github.io</a>.`, infoColor);
 }
 
 function cmdSocial(args) {
