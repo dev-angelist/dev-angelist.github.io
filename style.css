@@ -1,0 +1,149 @@
+body {
+    background-color: #000;
+    font-family: 'Lucida Console', 'Monaco', monospace;
+    font-size: .9rem;
+}
+#wrapper {
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+#container {
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: stretch;
+}
+div.commandLine {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: stretch;
+    text-indent: 5px;
+}
+span.shellPrefix {
+    order: 1;
+}
+div.commandLineInput {
+    display: flex;
+    order: 2;
+    flex-grow: 1;
+    padding-left: 10px;
+    color: #fff;
+}
+div:focus {
+    outline: none;
+}
+table.centeredTable {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 2px solid lightgray; */
+    border-top: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table.centeredTable > thead > tr > th {
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #222;
+    border: none;
+    padding-left: 5px;
+}
+table.centeredTable > tbody > tr > td {
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid rgba(154, 205, 50, 0.25);
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+table.centeredTable > tbody > tr.clickable:hover {
+    background-color: #333;
+}
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(100%, 100%, 20%);
+}
+a.clickable {
+    transition: color 1s ease;
+    cursor: pointer;
+}
+span.info {
+    color: rgb(100%, 100%, 20%);
+}
+div.resultTitle {
+    color: #fff;
+}
+.welcomeText {
+    color: lightgray;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.fixedHeader {
+    padding: 10px;
+    background: #000;
+    color: lightgray;
+}
+span.progressbar {
+    color: rgb(100%, 100%, 20%);
+}
+.u {
+    text-decoration: underline !important;
+}
+.muted {
+    color: gray;
+}
+a.demoLink {
+    color: rgb(100%, 100%, 20%);
+    text-decoration: none;
+}
+a.demoLink:hover {
+    text-decoration: underline;
+}
+.highlight {
+    color: rgb(100%, 100%, 20%);
+}
+span.badge {
+    background-color: rgb(234, 238, 137);
+    color: #101010;
+    font-size: 0.75rem;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+.welcome-greeting {
+    color: rgb(100%, 100%, 20%);
+    font-family: monospace;
+}
+
+@media only screen and (max-device-width: 575px) {
+    .welcome-greeting {
+        font-size: 5px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .welcome-greeting {
+        font-size: 9px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .welcome-greeting {
+        font-size: 12px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .welcome-greeting {
+        font-size: 1rem;
+    }
+}
