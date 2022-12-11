@@ -11,20 +11,20 @@ const username = "dev-angelist";
 const socialMediaLinks = [
     {
         site: "LinkedIn",
-        url: "https://linkedin.com/in/theja-bsr",
+        url: "shorturl.at/lNRS6",
     },
-    {
+    //{
         //site: "Twitter",
         //url: "https://twitter.com/",
-    },
-    {
+    //},
+    //{
         //site: "StackOverflow",
         //url: "https://stackoverflow.com/",
-    },
+    //},
     {
         
-       // site: "Personal Website/Blog",
-       //url: "dev-angelist.github.io",
+       site: "Personal Website/Blog",
+       url: "shorturl.at/hktG4",
     },
     {
         site: "Github",
