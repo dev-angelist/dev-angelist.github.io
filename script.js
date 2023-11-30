@@ -11,7 +11,7 @@ const username = "dev-angelist";
 const socialMediaLinks = [
     {
         site: "LinkedIn",
-        url: "shorturl.at/lNRS6",
+        url: "http://bit.ly/40YWaLP",
     },
     //{
         //site: "Twitter",
@@ -24,7 +24,7 @@ const socialMediaLinks = [
     {
         
        site: "Personal Website/Blog",
-       url: "shorturl.at/hktG4",
+       url: "https://bit.ly/3GlLkpw",
     },
     {
         site: "Github",
