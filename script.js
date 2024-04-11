@@ -10,21 +10,16 @@ const urlRegex = "^https?:\\\/\\\/(www.)?[a-z0-9-_]+\\.[a-z]+(\\\/?[a-zA-Z0-9#-_
 const username = "dev-angelist";
 const socialMediaLinks = [
     {
-        site: "LinkedIn",
-        url: "http://bit.ly/40YWaLP",
+        site: "Twitter",
+        url: "https://twitter.com/dev4ngelist",
     },
-    //{
-        //site: "Twitter",
-        //url: "https://twitter.com/",
-    //},
-    //{
-        //site: "StackOverflow",
-        //url: "https://stackoverflow.com/",
-    //},
     {
-        
+        site: "Medium",
+        url: "https://medium.com/@dev-angelist",
+    },
+    {
        site: "Personal Website/Blog",
-       url: "https://bit.ly/3GlLkpw",
+       url: "https://dev-angelist.gitbook.io/",
     },
     {
         site: "Github",
@@ -48,8 +43,6 @@ const WelcomeAscii = [
     "▓▓▓▓▓▓▓▓▓▓▓▓.    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓",
     "▓▓▓▓▓▓▓▓▓▓▓▓▓     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
 ].join('\n');
-
-
 
 // loading related..
 var isLoading = false;
